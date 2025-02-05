@@ -1,11 +1,1 @@
-
-В данном примере используется стандартный синтаксис Markdown для отображения структуры каталогов и файлов. Каждый уровень вложенности представлен с использованием отступов и символов `├──` и `└──`, что позволяет чётко визуализировать иерархию проекта.
-
-Для более подробного ознакомления с синтаксисом Markdown и его возможностями, вы можете обратиться к следующим ресурсам:
-
-- [Шпаргалка по Markdown: что это + примеры, синтаксис](https://kokoc.com/blog/markdown/)
-- [Синтаксис Markdown: подробная шпаргалка для веб-разработчиков](https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/)
-
-Эти материалы помогут вам лучше понять и использовать возможности Markdown для оформления документации и других текстовых файлов.
-::contentReference[oaicite:0]{index=0}
- 
+project/ ├── film_db_service/ │ ├── app.py │ ├── models.py │ ├── requirements.txt │ └── Dockerfile ├── search_service/ │ ├── app.py │ ├── search_engine.py │ ├── requirements.txt │ └── Dockerfile └── web_interface/ ├── app.py ├── templates/ │ ├── index.html │ └── results.html ├── static/ ├── requirements.txt └── Dockerfile
